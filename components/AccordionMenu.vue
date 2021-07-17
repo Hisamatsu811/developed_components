@@ -37,13 +37,14 @@ export default Vue.extend({
 
 <style lang="scss" scoped>
 .accordion {
-  width: 310px;
-  height: auto;
-  margin-bottom: 20px;
+  // cssは呼び出し元で設定
+  // width: 310px;
+  // height: auto;
+  // margin-bottom: 20px;
   list-style: none;
   &-title {
-    width: 100%;
-    height: 30px;
+  //   width: 100%;
+  //   height: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
