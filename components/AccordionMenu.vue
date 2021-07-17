@@ -38,7 +38,9 @@ export default Vue.extend({
 <style lang="scss" scoped>
 .accordion {
   width: 310px;
-  height: 630px;
+  height: auto;
+  margin-bottom: 20px;
+  list-style: none;
   &-title {
     width: 100%;
     height: 30px;
@@ -46,6 +48,9 @@ export default Vue.extend({
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
+  }
+  &-content {
+    list-style: none;
   }
 }
 @keyframes open {
