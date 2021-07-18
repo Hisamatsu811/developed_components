@@ -1,7 +1,5 @@
 <template>
   <div>
-    <p>aaaaaaaaaaaaaaaaa</p>
-    <p v-for="list in tag_lists" :key="list.id">{{ list }}</p>
     <AccordionMenu class="tagmodal-checklist_category" v-for="list in tag_lists" :key="list.id">
       <button slot="title" class="tagmodal-checklist_category_title">
         <p>{{ list.type }}</p>
