@@ -21,7 +21,7 @@
 
 <script lang="ts">
 import Vue from 'vue'
-import AccordionMenu from '~/components/AccordionMenu.vue'
+import AccordionMenu from '~/components/VAccordionMenu.vue'
 
 export default Vue.extend({
   data() {
