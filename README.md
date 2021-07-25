@@ -1,5 +1,9 @@
 # developed-components
 
+## はじめに
+ここに置かれているコンポーネントのcssはあくまで例になります。
+実際に他の場所で用いる場合には個別のcss設定をする必要があります。
+
 ## Build Setup
 
 ```bash
